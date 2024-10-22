@@ -1,0 +1,84 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Django stuff:
+*.log
+*.pot
+*.pyc
+*.pyo
+*.db
+*.sqlite3
+
+# If you're using SQLite as the database
+db.sqlite3
+db.sqlite3-journal
+
+# Media uploads (if you store uploaded files locally)
+media/
+
+# Static files (generated during collectstatic)
+staticfiles/
+
+# Virtual environment folders
+env/
+venv/
+ENV/
+.venv/
+.ENV/
+
+# Ignore local environment settings (if any)
+.env
+*.env
+
+# macOS system files
+.DS_Store
+
+# Windows system files
+Thumbs.db
+
+# JetBrains IDE (PyCharm) project files
+.idea/
+
+# VSCode settings
+.vscode/
+
+# Coverage reports
+htmlcov/
+.coverage
+*.cover
+*.py,cover
+
+# Testing files
+.tox/
+.nox/
+.cache/
+coverage.xml
+nosetests.xml
+*.coveragerc
+*.codecov.yml
+*.pytest_cache/
+
+# Migrations (optional, depending on your preference)
+*/migrations/__pycache__/
+*/migrations/*.pyc
+
+# pip files
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Celery beat schedule files
+celerybeat-schedule
+
+# MyPy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre type checker
+.pyre/
+.lh/
